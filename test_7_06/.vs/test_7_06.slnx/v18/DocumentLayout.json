@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code\\2026\\test_7_06\\",
+  "WorkspaceRootPath": "D:\\code\\github\\C_CODE\\test_7_06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B354DD6-3799-4F63-916D-BAB86C135652}|test_7_06\\test_7_06.vcxproj|D:\\code\\2026\\test_7_06\\test_7_06\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7B354DD6-3799-4F63-916D-BAB86C135652}|test_7_06\\test_7_06.vcxproj|D:\\code\\github\\C_CODE\\test_7_06\\test_7_06\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7B354DD6-3799-4F63-916D-BAB86C135652}|test_7_06\\test_7_06.vcxproj|solutionrelative:test_7_06\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test.c",
-              "DocumentMoniker": "D:\\code\\2026\\test_7_06\\test_7_06\\test.c",
+              "DocumentMoniker": "D:\\code\\github\\C_CODE\\test_7_06\\test_7_06\\test.c",
               "RelativeDocumentMoniker": "test_7_06\\test.c",
-              "ToolTip": "D:\\code\\2026\\test_7_06\\test_7_06\\test.c",
+              "ToolTip": "D:\\code\\github\\C_CODE\\test_7_06\\test_7_06\\test.c",
               "RelativeToolTip": "test_7_06\\test.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-07-06T07:53:41.13Z",
               "EditorCaption": ""
