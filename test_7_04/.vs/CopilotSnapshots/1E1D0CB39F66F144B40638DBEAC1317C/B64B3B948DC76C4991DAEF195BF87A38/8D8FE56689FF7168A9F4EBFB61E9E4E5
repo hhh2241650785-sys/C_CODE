@@ -1,0 +1,17 @@
+﻿#include <stdio.h>
+
+int main()
+{
+	int choice = 0;
+	printf("你是否要坚持学习C语言：（1/0）\n");
+	scanf_s("%d", &choice);
+	if (choice = 0)
+	{
+		printf("碌碌无为\n");
+	}
+	else
+	{
+		printf("你一定能学好C语言的\n");
+	}
+	return 0;
+}
