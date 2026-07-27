@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\code\\2026\\test_7_27\\test_7_27\\contact.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\stdio.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt.h",
+            "d:\\program files\\microsoft visual studio\\18\\insiders\\vc\\tools\\msvc\\14.51.36231\\include\\vcruntime.h",
+            "d:\\program files\\microsoft visual studio\\18\\insiders\\vc\\tools\\msvc\\14.51.36231\\include\\sal.h",
+            "d:\\program files\\microsoft visual studio\\18\\insiders\\vc\\tools\\msvc\\14.51.36231\\include\\concurrencysal.h",
+            "d:\\program files\\microsoft visual studio\\18\\insiders\\vc\\tools\\msvc\\14.51.36231\\include\\vadefs.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wstdio.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_stdio_config.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\string.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memory.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memcpy_s.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\errno.h",
+            "d:\\program files\\microsoft visual studio\\18\\insiders\\vc\\tools\\msvc\\14.51.36231\\include\\vcruntime_string.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wstring.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\assert.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
