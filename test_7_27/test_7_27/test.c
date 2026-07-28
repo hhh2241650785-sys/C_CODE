@@ -81,15 +81,19 @@ int main()
 			del_contact(&con);
 			break;
 		case 3:
+			search_contact(&con);
 			break;
 		case 4:
+			mod_contact(&con);
 			break;
 		case 5:
 			show_contact(&con);
 			break;
 		case 6:
+			sort_contact(&con);
 			break;
 		case 0:
+			dis_contact(&con);
 			printf("�˳�ͨѶ¼\n");
 			break;
 		default:

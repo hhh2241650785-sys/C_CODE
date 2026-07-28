@@ -25,6 +25,19 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "contact.c",
+              "DocumentMoniker": "D:\\code\\2026\\test_7_27\\test_7_27\\contact.c",
+              "RelativeDocumentMoniker": "test_7_27\\contact.c",
+              "ToolTip": "D:\\code\\2026\\test_7_27\\test_7_27\\contact.c",
+              "RelativeToolTip": "test_7_27\\contact.c",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAAN0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-07-27T12:09:58.678Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -36,22 +49,9 @@
               "RelativeDocumentMoniker": "test_7_27\\contact.h",
               "ToolTip": "D:\\code\\2026\\test_7_27\\test_7_27\\contact.h",
               "RelativeToolTip": "test_7_27\\contact.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-07-27T12:10:13.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "contact.c",
-              "DocumentMoniker": "D:\\code\\2026\\test_7_27\\test_7_27\\contact.c",
-              "RelativeDocumentMoniker": "test_7_27\\contact.c",
-              "ToolTip": "D:\\code\\2026\\test_7_27\\test_7_27\\contact.c",
-              "RelativeToolTip": "test_7_27\\contact.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-07-27T12:09:58.678Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "test_7_27\\test.c",
               "ToolTip": "D:\\code\\2026\\test_7_27\\test_7_27\\test.c",
               "RelativeToolTip": "test_7_27\\test.c",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-07-27T04:30:48.522Z",
               "EditorCaption": ""
