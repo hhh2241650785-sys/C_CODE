@@ -8,6 +8,31 @@
 //	memset(p->data, 0,sizeof(p->data));
 //}
 
+void load_contact(contact* p)
+{
+	FILE* pf = fopen("test.txt", "r");
+	if (pf == NULL)
+	{
+		perror("write");
+		return;
+	}
+	while (fscanf(pf, "姓名：%s\n", p->data[p->count].name)!=EOF)
+	{
+		check_capacity(p);
+		fscanf(pf, "姓名：%s\n", p->data[p->count].name);
+		fscanf(pf, "年龄：%d\n", &(p->data[p->count].age));
+		fscanf(pf, "性别：%s\n", p->data[p->count].sex);
+		fscanf(pf, "电话：%s\n", p->data[p->count].tele);
+		fscanf(pf, "住址：%s\n", p->data[p->count].addr);
+		fscanf(pf, "\n");
+		p->count++;
+	}
+
+
+	fclose(pf);
+	pf = NULL;
+}
+
 int  init_contact(contact* p)
 {
 	assert(p);
@@ -19,6 +44,8 @@ int  init_contact(contact* p)
 		printf("init:%s\n", strerror(errno));
 		return 1;
 	}
+
+	load_contact(p);
 	return 0;
 }
 
@@ -215,10 +242,37 @@ void sort_contact(contact* p)
 	printf("排序成功\n");
 }
 
-void dis_contact(contact* p);
+void dis_contact(contact* p)
 {
 	assert(p);
 	free(p->data);
 	p->data= NULL;
 }
+
+void save_contact( contact* p)
+{
+	assert(p);
+	FILE* pf = fopen("test.txt", "wb");
+	if (pf == NULL)
+	{
+		perror("fopen");
+		return;
+	}
+	int i = 0;
+	for (i = 0; i < p->count; i++)
+	{
+		fprintf(pf,"姓名：%s\n", p->data[i].name);
+		fprintf(pf,"年龄：%d\n", p->data[i].age);
+		fprintf(pf,"性别：%s\n", p->data[i].sex);
+		fprintf(pf,"电话：%s\n", p->data[i].tele);
+		fprintf(pf,"住址：%s\n", p->data[i].addr);
+		fprintf(pf,"\n");
+	}
+		
+	fclose(pf);
+	pf = NULL;
+}
+
+
+
 

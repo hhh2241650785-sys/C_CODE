@@ -52,6 +52,12 @@ void sort_contact(contact* p);
 
 void dis_contact(contact* p);
 
+void save_contact(contact* p);
+
+void load_contact(contact* p);
+
+void check_capacity(contact* p);
+
 
 
 

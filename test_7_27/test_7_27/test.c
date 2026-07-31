@@ -93,6 +93,8 @@ int main()
 			sort_contact(&con);
 			break;
 		case 0:
+			save_contact(&con);
+			printf("保存成功   \n");
 			dis_contact(&con);
 			printf("退出通讯录\n");
 			break;

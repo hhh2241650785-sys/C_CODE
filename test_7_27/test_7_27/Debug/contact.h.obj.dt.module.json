@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\contact.obj",
+            "outputs": [
+                "Debug\\contact.h.obj.dt.module.json",
+                "Debug\\contact.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
