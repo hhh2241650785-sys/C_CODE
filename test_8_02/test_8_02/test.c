@@ -4,6 +4,7 @@
 #include <assert.h>
 #include <ctype.h>
 #include <limits.h>       
+#include <string.h>       
 
 //int main()
 //{
@@ -225,28 +226,41 @@
 //	return 0;
 //}
 
-void fun(char* arr,int length)
+void fun(char* arr,int len)
 {
-	char* s = arr;
-	char tmp = 0;
-	while (*s == " ")
+	int count = 0;
+	char* str = arr;
+	while (*str != 0)
 	{
-		*s = '%';
-		char* n = s;
-		n++;
-		while (*n != 0)
+		if (*str == ' ')
 		{
-			tmp = *n;
-			*n = 
+			count++;
 		}
-		s++;
+		str++;
 	}
+	str -= 1;
+	int j = len + count * 2 - 1;
+	int i = 0;
+	for (i = 0; i < count; i++)
+	{
+		while (*str != ' ')
+		{
+			arr[j--] = *str--;
+		}
+		arr[j] = '0';
+		arr[j-1] = '2';
+		arr[j-2] = '%';
+		j = j - 3;
+		str = str - 1;
+	}
+
 }
 
 int main()
 {
-	char arr[20] = "hello word !";
-	fun(arr);
+	char arr[100] = "we are happy ";
+	int len = strlen(arr);
+	fun(arr,len);
 	printf("%s\n", arr);
 	return 0;
 }
